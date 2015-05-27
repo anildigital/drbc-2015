@@ -38,8 +38,13 @@ h1, h2 {
 	text-rendering: optimizelegibility;
 }
 ul {
-	list-style-type: none;
+    list-style-type: none;
 }
+
+ul.coc {
+    list-style-type: disc;
+}
+
 sup {
 	padding: 0 0 0 1px;
 	text-transform: none;
