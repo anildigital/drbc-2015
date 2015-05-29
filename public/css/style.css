@@ -9,11 +9,12 @@
 /**/
 body {
 	margin: 0;
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-family: "AvenirNextLTW01-Italic", "Avenir Next", sans-serif;
+	font-style:normal;
 	font-size: 15px;
 	line-height: 24px;
 	color: #393e46 !important;
-	background-color: #ffffff;
+	background-color: #843F5B;
 }
 a {
 	color: #48A3A6;
@@ -31,7 +32,7 @@ a:hover {
 }
 h1, h2 {
 	color: inherit;
-	font-family: 'Roboto Slab Bold';
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-weight: bold;
 	line-height: 40px;
 	margin: 5px 0 20px;
@@ -821,13 +822,13 @@ a.instagram:hover {
 	font-weight: 800;
 	line-height: 1;
 	margin: 10px 0 20px;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	text-transform: none;
 }
 .jumbotron h2 {
 	font-size: 60px;
 	line-height: 1;
-	text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 .jumbotron h3 {
 	font-size: 48px;
@@ -1033,7 +1034,7 @@ a.instagram:hover {
 }
 /* Entry */
 .entry-title {
-	font-family: 'Roboto Slab Bold';
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
 	font-size: 28.5px;
 	margin: 0 0 10px;
 	padding: 0 15px;
@@ -1961,9 +1962,21 @@ a.instagram:hover {
 }
 
 h1.main-header {
-    color: black;
+    color: white;
 }
 
 h3.date {
-    color: black;
+    color: white;
 }
+
+.code_of_conduct {
+	color: #eeeeee;
+}
+
+/*.flexslider {
+	background: url(/images/pune.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}*/
